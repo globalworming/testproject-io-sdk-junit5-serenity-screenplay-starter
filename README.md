@@ -1,11 +1,17 @@
 
 # testproject.io and serenity bdd
-
+by using the testproject.io junit5 example and wiring a serenity steplistener to the reportingdriver 
 ⚠️ Don't get your hopes up, does not work this way
 
 using Serenity BDD with a custom driver implementation does work better
 
-## how I think it should work
+## why?
+
+Get some test code structure and readability by using `Actor`, `Performable` and `Question`. Get reports that provide context why you are asserting stuff, not just a list of driver commands.
+
+![Steps](steps.png)
+
+## how it should be used
 
 Get some screenplay into your testproject.io tests and reports.
 
@@ -16,12 +22,6 @@ check out this project and import it as maven project into your IDE.
 run tests from the IDE.
 
 run tests with `mvn verify`
-
-## why?
-
-Get some test code structure and readability by using `Actor`, `Performable` and `Question`. Get reports that provide context why you are asserting stuff, not just a list of driver commands.
-
-![Steps](steps.png)
 
 ## Thoughts and WTFs
 
