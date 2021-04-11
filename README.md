@@ -1,7 +1,7 @@
 
 # testproject.io and serenity bdd
 
-## ⚠️ Don't get your hopes up, does not work this way
+⚠️ Don't get your hopes up, does not work this way
 
 using Serenity BDD with a custom driver implementation does work better
 
