@@ -5,7 +5,7 @@
 
 using Serenity BDD with a custom driver implementation does work better
 
-## how
+## how I think it should work
 
 Get some screenplay into your testproject.io tests and reports.
 
@@ -13,11 +13,13 @@ follow https://docs.testproject.io/testproject-sdk/opensdk-v2/java-sdk to set up
 
 check out this project and import it as maven project into your IDE.
 
-run test from the IDE.
+run tests from the IDE.
+
+run tests with `mvn verify`
 
 ## why?
 
-Get some test structure and readability by using `Actor`, `Performable` and `Question`. Get reports that provide context why you are asserting stuff, not just a list of driver commands.
+Get some test code structure and readability by using `Actor`, `Performable` and `Question`. Get reports that provide context why you are asserting stuff, not just a list of driver commands.
 
 ![Steps](steps.png)
 
