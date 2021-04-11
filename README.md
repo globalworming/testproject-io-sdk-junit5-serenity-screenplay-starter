@@ -33,3 +33,4 @@ run tests with `mvn verify`
 * running a single class is fine, running all classes somehow results in `driver.sessionId == null` when calling `driver.report().step()`, weird.
 * running multiple tests also results in `driver.sessionId == null` though less frequent 
 * can't run things locally with surefire or failsafe. i think TestNg is messing with it?
+* it wont be possible to report multiple browser instances interacting in a single report. you could still use multiple actors for e.g. separated browser and rest api access
