@@ -1,6 +1,7 @@
 
 # testproject.io and serenity bdd
-by using the testproject.io junit5 example and wiring a serenity steplistener to the reportingdriver 
+by using the testproject.io junit5 example and wiring a serenity steplistener to the reportingdriver
+
 ⚠️ Don't get your hopes up, does not work this way
 
 using Serenity BDD with a custom driver implementation does work better
